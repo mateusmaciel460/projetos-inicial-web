@@ -1,0 +1,39 @@
+.conteudo {
+    padding: 4rem;
+}
+
+.conteudo__subtitulo {
+    font-size: 2.5rem;
+}
+
+.conteudo__subtitulo-2 {
+    font-size: 2rem;
+}
+
+.conteudo__subtitulo-3 {
+    font-size: 1.5rem;
+}
+
+.conteudo__apresentacao {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 2rem;
+}
+
+.conteudo__menu-lista {
+    list-style: none;
+}
+
+.conteudo__imagem {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.conteudo__botao {
+    background: #2a313c;
+    color: #b7bdc6;
+    border: 0.1px solid #b7bdc6;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

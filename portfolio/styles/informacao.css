@@ -1,0 +1,9 @@
+.conteudo__apresentacao__informacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conteudo__apresentacao__informacao .conteudo__menu-lista {
+    gap: 0.5rem;
+}

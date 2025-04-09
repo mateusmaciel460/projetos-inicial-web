@@ -1,0 +1,25 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('conteudo.css');
+@import url('informacao.css');
+@import url('topico.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #212830;
+    color: #b7bdc6;
+}
+
+.modelo__vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.modelo__horizontal {
+    display: flex;
+}

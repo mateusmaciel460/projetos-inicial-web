@@ -1,0 +1,24 @@
+.conteudo__apresentacao__topico {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid #b7bdc6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.conteudo__apresentacao__topico .conteudo__menu-lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.conteudo__apresentacao__topico .conteudo__menu-item {
+    background: #131212;
+    border-bottom: 4px solid #b7bdc6;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.conteudo__apresentacao__topico .conteudo__menu-item:nth-child(1) {
+    border-bottom: 4px solid #e34c26;
+}
