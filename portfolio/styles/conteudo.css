@@ -1,5 +1,5 @@
 .conteudo {
-    padding: 4rem;
+    padding: 3.7rem;
 }
 
 .conteudo__subtitulo {
@@ -30,10 +30,42 @@
 }
 
 .conteudo__botao {
-    background: #2a313c;
     color: #b7bdc6;
     border: 0.1px solid #b7bdc6;
     padding: 0.5rem;
     font-size: 1.2rem;
     cursor: pointer;
+    font-weight: 600;
+}
+
+.conteudo__botao--cinza {
+    background: #2a313c;
+}
+
+.conteudo__botao--verde {
+    background: #2b6a30;
+}
+
+.conteudo__link {
+    text-decoration: none;
+}
+
+.conteudo__principal div {
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1196px) {
+    .conteudo__apresentacao {
+        grid-template-columns: 30% 70%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .conteudo {
+        padding: 1rem;
+    }
+
+    .conteudo__apresentacao {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

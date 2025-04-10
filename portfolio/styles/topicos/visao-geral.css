@@ -1,0 +1,28 @@
+.conteudo__visao-geral .conteudo__etiqueta-menu {
+    padding: 1rem 0;
+}
+
+.conteudo__visao-geral .conteudo__etiqueta-item {
+    background: #2e2e2e;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 0.1px solid #FFFFFF;
+}
+
+.conteudo__visao-geral .conteudo__texto {
+    font-size: 1.2rem;
+    text-align: justify;
+    word-spacing: 0;
+}
+
+.conteudo__visao-geral .conteudo__imagem {
+    width: 10%;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 1018px) {
+    .conteudo__visao-geral .conteudo__etiqueta-menu {
+        flex-wrap: wrap;
+    }
+}

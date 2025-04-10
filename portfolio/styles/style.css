@@ -2,7 +2,7 @@
 
 @import url('conteudo.css');
 @import url('informacao.css');
-@import url('topico.css');
+@import url('./topicos/topico.css');
 
 * {
     padding: 0;
@@ -18,8 +18,30 @@ body {
 .modelo__vertical {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .modelo__horizontal {
     display: flex;
+    gap: 1rem;
+}
+
+.modelo__centralizado {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    background: transparent;
+    color: #b7bdc6;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border: 2px solid #b7bdc6;
+    border-radius: 0.5rem;
+    outline: none;
 }

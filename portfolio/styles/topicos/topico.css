@@ -1,3 +1,5 @@
+@import url('./visao-geral.css');
+
 .conteudo__apresentacao__topico {
     display: flex;
     flex-direction: column;
@@ -19,6 +21,17 @@
     padding: 0.5rem;
 }
 
-.conteudo__apresentacao__topico .conteudo__menu-item:nth-child(1) {
+.conteudo__apresentacao__topico .conteudo__menu-item .conteudo__link {
+    color: #b7bdc6;
+}
+
+.conteudo__apresentacao__topico .conteudo__menu-item {
     border-bottom: 4px solid #e34c26;
+}
+
+@media screen and (max-width: 1196px) {
+    .conteudo__apresentacao__topico .conteudo__menu-lista {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
 }
