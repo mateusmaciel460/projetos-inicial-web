@@ -36,7 +36,7 @@ ul {
     list-style: none;
 }
 
-input {
+.modelo__caixa-texto {
     background: transparent;
     color: #b7bdc6;
     font-size: 1.3rem;
@@ -44,4 +44,14 @@ input {
     border: 2px solid #b7bdc6;
     border-radius: 0.5rem;
     outline: none;
+}
+
+.modelo__espacamento {
+    padding: 1.5rem 0;
+}
+
+.modelo__destaque-bloco {
+    background: #39414a;
+    padding: 0.8rem;
+    border: 2px solid #b7bdc6;
 }
