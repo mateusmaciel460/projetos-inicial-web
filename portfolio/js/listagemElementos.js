@@ -29,15 +29,16 @@ function exibirTopicos() {
 
     listaTopicos.forEach((topico) => {
         elementoTopicos.innerHTML += `
-            <li class="conteudo__menu-item modelo__horizontal">
+            <li class="conteudo__menu-item modelo__horizontal" id="${topico.id}">
                 <i class="fa fa-${topico.icone}"></i>
                 <a 
+                    id="${topico.id}-link"
                     href="#${topico.id}" 
                     class="conteudo__link" 
-                    onclick="${topico.id}()">${topico.titulo}</a>
+                    onclick="executarComponente(${topico.id}, '${topico.id}')">${topico.titulo}</a>
             </li>
         `;
-    })
+    });
 }
 
 exibirLinksSociaisNaTela();
